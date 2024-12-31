@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'CollegeERP.wsgi.application'
 DATABASES = {
     'default':{
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME':'CollegeManagementSystem',
-        'USER':'postgres',
-        'PASSWORD':'123456',
+        'NAME':'Your_Database_Name',
+        'USER':'UserName',
+        'PASSWORD':'UserPassword',
         'PORT':'',
     }
 }
